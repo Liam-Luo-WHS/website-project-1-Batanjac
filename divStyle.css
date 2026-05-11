@@ -14,12 +14,12 @@ html, body{
  
     margin: auto;
  
-    display:flex;
+    display: flex;
+
     flex-wrap: wrap;
+
     justify-content: flex-start;
- 
-     
- 
+
 }
  
  
