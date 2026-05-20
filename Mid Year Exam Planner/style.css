@@ -1,11 +1,51 @@
-.easy { 
+#content-box{
+    font-family: Arial;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#header{
+    font-style: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: darkgreen;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: rgb(235, 235, 235);
+}
+
+tr:hover{
+    background-color: lightblue;
+}
+
+.easy{ 
     border: 3px solid green; 
 } 
 
-.medium { 
+.medium{ 
     border: 3px solid orange; 
 } 
 
-.hard { 
+.hard{ 
     border: 3px solid red; 
 }
