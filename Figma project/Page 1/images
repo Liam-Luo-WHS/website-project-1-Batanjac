@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning English</title>
+        <link rel="stylesheet" href="style-2.css"/>
+    </head>
+
+    <!--Please consider the opacity, which is what makes the colour in the Figma website different from this one.-->
+    <!--Find a way using ID and classes to only change the container and not the text inside.-->
+
+    <body>
+        <div id="header-box">
+            <p id="website-name">Learning English</p>
+                
+            <div id="nav-options">
+                <p>Parts of speech</p>
+                <p>Contact forms</p>
+            </div>
+        </div>
+
+        <div id="content-box">
+            <p class="title">Parts of Speech</p>
+
+            <div id="description">
+                <p class="parts-of-speech">Noun</p>
+                <p>The name of a person, place, object or idea; the name is what something is referred as.</p>
+                <p class="example"><b>Example:</b> My name is <b>Roger.</b> <br/> <b>Roger</b> is the name of the <b>person.</b></p>
+
+                <hr style="width: 101%; border: 1px solid black;">
+
+                <p class="parts-of-speech">Verb</p>
+                <p>The action, state, or occurrence of a person, place object or idea; what happened, is or something someone did.</p>
+                <p class="example"><b>Example:</b> Roger <b>flexed</b> his biceps<br/><b>Flexing</b> is the <b>action</b> Roger did.</p>
+
+                <hr style="width: 101%; border: 1px solid black;">
+
+                <p class="parts-of-speech">Adjective</p>
+                <p>A word that describes a person, place object or idea; a word that specifies what something is.</p>
+                <p class="example"><b>Example:</b> Roger is a <b>fast</b> runner.<br/><b>Fast describes</b> Roger as a runner.</p>
+
+                <hr style="width: 101%; border: 1px solid black;">
+
+                <p class="parts-of-speech">Adverb</p>
+                <p>A word that describes the action, state or occurrence of a person, place or object; specifies the action of something</p>
+                <p class="example"><b>Example:</b> Roger <b>slowly</b> lifts the box.<br/><b>Slowly describes</b> the <b>person's</b> action.</p>
+
+                <p class="title">Punctuation</p>
+            </div>
+        </div>
+    </body>
+</html>
+
+body{
+    background-color: #B8D7FF;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header-box{
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #C9FFC7;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#website-name{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#nav-options{
+    display: flex;
+    gap: 30px;
+}
+
+#content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 90px;
+}
+
+#description{
+    
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 60px;
+    background-color: #52FFBA;
+    width: 35%;
+    height: 230px;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#get-started{
+    font-weight: bold;
+    font-size: 23px;
+
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 20px;
+    background-color: #B8FFB5;
+}
