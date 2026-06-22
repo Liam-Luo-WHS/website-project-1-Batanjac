@@ -1,15 +1,15 @@
-AGE = 16
+age = 16
 
-AGE = input("Enter your birth day ")
-AGE = input("Enter your birth month")
-AGE = input("Enter your birth year")
+age = input("Enter your birth day ")
+age = input("Enter your birth month")
+age = input("Enter your birth year")
 
-AGE = input("Enter your target day")
-AGE = input("Enter your target month")
-AGE = input("Enter your target year")
+age = input("Enter your target day")
+age = input("Enter your target month")
+age = input("Enter your target year")
 
-if AGE > 16:
+if age > 16:
     print("No")
 
-if AGE <= 16:
+if age <= 16:
     print("Yes")
