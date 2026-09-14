@@ -1,0 +1,29 @@
+html{
+    background-color: yellow;
+}
+
+body{
+    border: 10px
+    solid #0056b3;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+h1{
+    color: blue; 
+    text-align: center;
+}
+
+hr{
+    background-color: red;
+    height: 2px;
+    border: none;
+}
+
+h2{
+    color: green;
+}
+
+p{
+    text-align: center;
+}

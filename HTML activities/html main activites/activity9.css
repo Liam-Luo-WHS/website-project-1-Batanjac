@@ -1,0 +1,27 @@
+html{
+    background-color: #82CAFA;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+#content-1{
+    text-align: center;
+    font-size: 18px;
+}
+
+hr{
+    background-color: blue;
+    height: 3px;
+    border: none;
+}
+
+h2{
+    color: blue;
+}
+
+#content-2{
+    font-size: 14px;
+}
